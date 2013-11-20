@@ -1,0 +1,130 @@
+/*Reseteo universal*/
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+article,figcaption,figure,footer, header, hgroup,nav,section{
+	display:block;/*todas las estructuras que trabajamos con semantica diremos que su naturaleza sea en BLOQUE*/
+}
+
+/*Fin de reseteo uiversal*/
+
+
+/*Estilos del sitio*/
+@font-face {
+    font-family: 'Chalet';
+    src: url('../fonts/Chalet.eot');
+    src: url('../fonts/Chalet.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Chalet.woff') format('woff'),
+         url('../fonts/Chalet.ttf') format('truetype'),
+         url('../fonts/Chalet.svg#Chalet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background:#eaeaea; 
+	color:#000;
+	font-family: "Chalet", Helvetica, Verdana;
+	font-size: 1em;
+}
+
+
+a{
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color:#ccc;/*#5E5E5E*/
+   /*background-color: #464646;/*#212121;*/
+   border-top-width: 1px;
+   border-top-style: solid;
+   border-top-color: #CCC;
+   border-right-width: 1px;
+   border-right-style: solid;
+   border-right-color: #ccc;
+   color:#000;
+   display: block;
+   font-family: arial, Helvetica, sans-serif;
+   font-size: 0.9em;
+   float: left;
+   text-decoration: none;
+   padding: 6px;
+}
+
+
+a:hover{  
+    /*background-color: #666;*/
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    color: #000;
+}
+
+
+li {
+  display: inline;
+}
+
+li.news > a{
+   border-left-width: 1px;
+   border-left-style: solid;
+   border-left-color: #ccc;
+}
+
+li.news > a:hover{
+  border-bottom-color: #610B0B;
+}
+
+li.sport > a:hover{
+  border-bottom-color: #D7DF01;
+}
+
+li.weather > a:hover{
+  border-bottom-color: #01A9DB;
+}
+
+li.capital > a:hover{
+  border-bottom-color: #716F6F;
+}
+
+li.culture > a:hover{
+  border-bottom-color: #000000;
+}
+
+li.autos > a:hover{
+  border-bottom-color: #61380B;
+}
+
+li.tv > a:hover{
+  border-bottom-color: #000000;
+}
+
+li.radio > a:hover{
+  border-bottom-color: #000000;
+}
+
+li.more > a:hover{
+  border-bottom-color: #716F6F;
+}
+
+nav {   
+    margin-left: 5px;    
+}
+
+
+ul{
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #5E5E5E; /*#ccc*/
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+    
+}
+
+
+.clear{
+  clear:both;
+}
+
